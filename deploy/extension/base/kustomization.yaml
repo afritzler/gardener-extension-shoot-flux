@@ -8,5 +8,5 @@ resources:
 - controller-registration.yaml
 
 images:
-- name: ghcr.io/stackitcloud/gardener-extension-shoot-flux
-  newTag: v0.4.0
+- name: localhost:5001/shootflux
+  newTag: v0.5.0-1-g769dd9d@sha256:c9e91f5e80090d12129c2a740109f91db127af777287d590d51320820b3f2c7d

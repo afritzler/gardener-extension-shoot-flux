@@ -10,6 +10,44 @@
 </p>
 Resource Types:
 <ul></ul>
+<h3 id="flux.extensions.gardener.cloud/v1alpha1.AdditionalResource">AdditionalResource
+</h3>
+<p>
+(<em>Appears on:</em>
+<a href="#flux.extensions.gardener.cloud/v1alpha1.FluxConfig">FluxConfig</a>)
+</p>
+<p>
+</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<code>name</code></br>
+<em>
+string
+</em>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<code>targetNamespace</code></br>
+<em>
+string
+</em>
+</td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>
 <h3 id="flux.extensions.gardener.cloud/v1alpha1.FluxConfig">FluxConfig
 </h3>
 <p>
@@ -84,9 +122,11 @@ SyncMode
 </tr>
 <tr>
 <td>
-<code>additionalSecretResourceNames</code></br>
+<code>additionalSecretResources</code></br>
 <em>
-[]string
+<a href="#flux.extensions.gardener.cloud/v1alpha1.AdditionalResource">
+[]AdditionalResource
+</a>
 </em>
 </td>
 <td>
